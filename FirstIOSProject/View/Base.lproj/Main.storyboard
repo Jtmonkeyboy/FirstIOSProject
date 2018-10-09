@@ -19,17 +19,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wxs-rH-xBG">
-                                <rect key="frame" x="69" y="273" width="237" height="120"/>
+                                <rect key="frame" x="111" y="295" width="153" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Click Me"/>
+                                <connections>
+                                    <action selector="colorClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LVE-pG-N8Q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="firstButton" destination="Wxs-rH-xBG" id="t4b-aF-8y2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-916" y="24"/>
         </scene>
     </scenes>
 </document>
